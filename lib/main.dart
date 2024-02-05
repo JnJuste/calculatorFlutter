@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
   var userAnswer = ''; //Your Answer
   final myTextStyle = TextStyle(fontSize: 30, color: Colors.deepPurple[900]);
   final List<String> buttons = [
-    'C',
+    'AC',
     'DEL',
     '%',
     '/',

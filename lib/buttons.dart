@@ -7,7 +7,8 @@ class MyButton extends StatelessWidget {
   final buttonTapped;
 
   const MyButton(
-      {super.key, this.color,
+      {super.key,
+      this.color,
       this.textColor,
       required this.buttonText,
       this.buttonTapped});
@@ -25,7 +26,7 @@ class MyButton extends StatelessWidget {
               child: Center(
                 child: Text(
                   buttonText,
-                  style: TextStyle(color: textColor, fontSize: 22),
+                  style: TextStyle(color: textColor, fontSize: 25),
                 ),
               )),
         ),
