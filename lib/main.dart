@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                       alignment: Alignment.centerLeft,
                       child: Text(
                         userQuestion,
-                        style: TextStyle(fontSize: 22),
+                        style: TextStyle(fontSize: 30),
                       ),
                     ),
                     Container(
@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
                       alignment: Alignment.centerRight,
                       child: Text(
                         userAnswer,
-                        style: TextStyle(fontSize: 22),
+                        style: TextStyle(fontSize: 30),
                       ),
                     )
                   ]),
