@@ -24,8 +24,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var userQuestion = ''; //Your Question
-  var userAnswer = ''; //Your Answer
+  var userQuestion = ''; // User Input
+  var userAnswer = ''; // User Answer
   final myTextStyle = TextStyle(fontSize: 30, color: Colors.deepPurple[900]);
   final List<String> buttons = [
     'AC',
@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
     '+',
     '0',
     '.',
-    'ANS',
+    '00',
     '=',
   ];
 
